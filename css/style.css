@@ -59,7 +59,12 @@ li {
 img {
   display: block;
 }
-
+.wrapper {
+  display: flex;
+  width: 1112px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container {
   margin: 0 auto;
   max-width: 1320px;
@@ -166,7 +171,8 @@ header {
 }
 
 .instructions {
-  padding: 97px;
+  padding: 0;
+  margin-bottom: 200px;
 }
 .instructions-title {
   font-weight: 900;
@@ -257,9 +263,6 @@ header {
   line-height: 26px;
   width: 285px;
 }
-.last-home-link {
-  margin-bottom: 200px;
-}
 footer {
   padding-top: 45px;
   bottom: 0;
@@ -312,4 +315,29 @@ footer {
 }
 .footer-addres-item:active {
   opacity: 0.5;
+}
+.about-instructions {
+  padding: 0;
+  margin: 0;
+}
+.about-instractions-item {
+  height: 355px;
+  margin-right: 200px;
+}
+.about-mape-img {
+  margin-bottom: 46px;
+}
+.about-instraction-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}
+.about-details {
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+  color: #333d4b;
+  margin-bottom: 7px;
 }
