@@ -117,7 +117,7 @@ header {
   padding-top: 0;
 }
 .intro-container {
-  background-image: url(/images/home/svg/Bitmap.svg);
+  background-image: url(../images/home/svg/Bitmap.svg);
   border-radius: 10px;
   padding: 117px 88px;
   background-size: cover;
@@ -439,7 +439,7 @@ header {
 }
 
 .create-intro {
-  background-image: url(/images/create/svg/create-intro-bg.svg);
+  background-image: url(../images/create/svg/create-intro-bg.svg);
   border-radius: 10px;
   padding: 117px 88px;
   background-size: cover;
