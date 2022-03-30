@@ -24,19 +24,11 @@
   src: local(""), url("../fonts/barlow-v11-latin-700.woff2") format("woff2"),
     url("../fonts/barlow-v11-latin-700.woff") format("woff");
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   font-family: "Barlow", Arial, sans-serif;
   font-style: 16px;
   font-style: normal;
 }
-
 h1,
 h2,
 h3,
@@ -46,28 +38,24 @@ h6 {
   font-family: "Fraunces";
   font-style: normal;
 }
-
 a {
   text-decoration: none;
 }
-
 ul,
 li {
   list-style-type: none;
 }
-
 img {
   display: block;
 }
 .wrapper {
-  display: flex;
   max-width: 1112px;
   margin-right: auto;
 }
 .container {
   margin: 0 auto;
   max-width: 1320px;
-  padding: 20px;
+  padding: 80px;
 }
 header {
   margin-bottom: 25px;
@@ -77,7 +65,6 @@ header {
   position: sticky;
   margin: 0 auto;
   max-width: 1320px;
-  padding: 20px;
   top: 0;
   z-index: 100;
   padding-bottom: 10px;
@@ -154,6 +141,35 @@ header {
   margin-bottom: 56px;
   width: 385px;
   opacity: 0.8;
+}
+.collection {
+  margin-bottom: 192px;
+}
+.collection-container {
+}
+.bg-text {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+.collection-wrapper {
+  display: flex;
+  position: relative;
+}
+.collection-item {
+  text-align: center;
+  width: 255px;
+  margin-right: 30px;
+}
+.item-pic {
+}
+.item-title {
+  margin-bottom: 24px;
+}
+.item-text {
 }
 .blue-link {
   font-weight: 900;
